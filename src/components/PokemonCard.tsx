@@ -30,7 +30,9 @@ function PokemonCard() {
       <figcaption>{pokemon.name}</figcaption>
     </figure>
   ) : (
-    <p>???</p>
+    <p>
+      ???<figcaption>{pokemon.name}</figcaption>
+    </p>
   );
   // {pokemon.imgSrc !== undefined ? (<img src={pokemon.imgSrc} alt={pokemon.name}/>) : (<p>???</p>)}
 }
