@@ -22,14 +22,14 @@ function PokemonCard({ pokemon }: props) {
   return pokemon.imgSrc !== undefined ? (
     <figure>
       <img src={pokemon.imgSrc} alt={pokemon.name} />
-      <figcaption>{pokemon.name}</figcaption>
+      <figcaption></figcaption>
     </figure>
   ) : (
     <p>
       ???
       <br />
       <br />
-      <figcaption>{pokemon.name}</figcaption>
+      <figcaption></figcaption>
     </p>
   );
 }
